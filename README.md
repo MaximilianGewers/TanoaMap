@@ -6,6 +6,11 @@
 3. use git to clone the repository 'git clone <URL>'
 4. Done
 
+## To Edit
+1. open the game
+2. Load the editor with Tanoa
+3. Load the game files
+4. Start editing
 
 ## Set up the game client
 1. Use steam to launch Arma 3 and selecte the following mods
