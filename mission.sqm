@@ -8,27 +8,28 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4;
+		nextID=7;
 	};
 	class Camera
 	{
-		pos[]={2681.4563,191.36047,12295.839};
-		dir[]={-0.33952254,-0.53766298,0.77179497};
-		up[]={-0.21650454,0.84315389,0.49215263};
-		aside[]={0.91535687,-4.5110937e-008,0.40267619};
+		pos[]={2676.082,178.87352,12301.912};
+		dir[]={-0.18816207,-0.20190166,0.96121359};
+		up[]={-0.038797077,0.97938269,0.19819};
+		aside[]={0.98142856,6.762566e-007,0.19211999};
 	};
 };
 binarizationWanted=0;
 addons[]=
 {
 	"exile_client",
-	"A3_Structures_F_Mark_VR_Targets"
+	"A3_Structures_F_Mark_VR_Targets",
+	"A3_Misc_F_Helpers"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			className="exile_client";
@@ -38,6 +39,13 @@ class AddonsMetaData
 		{
 			className="A3_Structures_F_Mark";
 			name="Arma 3 Marksmen - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Misc_F";
+			name="Arma 3 - 3D Aids and Helpers";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -72,7 +80,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2;
+		items=4;
 		class Item0
 		{
 			dataType="Group";
@@ -118,6 +126,51 @@ class Mission
 			};
 			id=3;
 			type="Land_VR_Target_MBT_01_cannon_F";
+		};
+		class Item2
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2668.104,171.61781,12313.592};
+						angles[]={0,1.990683,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=5;
+					type="Exile_Trader_Hardware";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=4;
+		};
+		class Item3
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2667.1985,173.32904,12313.694};
+				angles[]={0,1.709833,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=6;
+			type="Sign_Arrow_Direction_F";
+			atlOffset=1.6985016;
 		};
 	};
 };
