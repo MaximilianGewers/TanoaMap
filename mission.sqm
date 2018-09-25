@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=159;
+		nextID=163;
 	};
 	class Camera
 	{
-		pos[]={6975.5327,41.030388,7411.0293};
-		dir[]={-0.78395629,-0.61570972,-0.081050232};
-		up[]={-0.61260402,0.78780055,-0.063337244};
-		aside[]={-0.1028515,9.5575888e-007,0.99482155};
+		pos[]={7065.8413,91.490845,7440.7158};
+		dir[]={-0.90757477,-0.3812364,-0.17669788};
+		up[]={-0.37445161,0.9243378,-0.072904631};
+		aside[]={-0.19112626,9.2187111e-007,0.98168999};
 	};
 };
 binarizationWanted=0;
@@ -189,7 +189,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=93;
+		items=95;
 		class Item0
 		{
 			dataType="Group";
@@ -2047,6 +2047,40 @@ class Mission
 			};
 			id=158;
 			type="Land_WaterCooler_01_old_F";
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6903.438,5.0984449,7465.4932};
+				angles[]={0,6.1075001,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=161;
+			type="CUP_A2_sideroof";
+			atlOffset=1.5319998;
+		};
+		class Item94
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6907.9038,5.0984449,7443.3491};
+				angles[]={0,6.085422,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=162;
+			type="CUP_A2_sideroof";
+			atlOffset=1.5319998;
 		};
 	};
 };
