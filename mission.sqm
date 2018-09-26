@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=164;
+		nextID=191;
 	};
 	class Camera
 	{
-		pos[]={6983.1724,27.66,7383.6787};
-		dir[]={-0.94472235,-0.30399293,-0.12285975};
-		up[]={-0.30145535,0.95267248,-0.039203689};
-		aside[]={-0.12896256,3.5095582e-008,0.99165177};
+		pos[]={5280.1064,5.4741311,10195.702};
+		dir[]={-0.10849652,-0.24380046,0.96385986};
+		up[]={-0.027280265,0.9697783,0.24236883};
+		aside[]={0.99384916,4.2311149e-007,0.11186942};
 	};
 };
 binarizationWanted=0;
@@ -43,13 +43,15 @@ addons[]=
 	"CUP_CAStructures_E_Misc_Misc_Market",
 	"A3_Structures_F_Civ_Camping",
 	"A3_Structures_F_Ind_FuelStation",
-	"A3_Structures_F_Bootcamp_Items_Electronics"
+	"A3_Structures_F_Bootcamp_Items_Electronics",
+	"A3_Structures_F_EPB_Naval_Fishing",
+	"A3_Structures_F_Exp_Civilian_Slum_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=19;
 		class Item0
 		{
 			className="exile_client";
@@ -152,6 +154,20 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item17
+		{
+			className="A3_Structures_F_EPB";
+			name="Arma 3 Adapt Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item18
+		{
+			className="A3_Structures_F_Exp_Civilian";
+			name="Arma 3 Apex - Civilian Buildings";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=3574929;
@@ -183,7 +199,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=93;
+		items=104;
 		class Item0
 		{
 			dataType="Group";
@@ -2061,6 +2077,259 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5273.8555,2.4949648,10210.186};
+				angles[]={0,1.3901417,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=168;
+			type="Land_FishingGear_02_F";
+		};
+		class Item94
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5276.3169,3.3197944,10220.192};
+						angles[]={0,2.4811366,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=172;
+					type="Exile_Trader_Diving";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=171;
+		};
+		class Item95
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5280.4629,3.3197939,10220.463};
+						angles[]={0,3.7398467,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=174;
+					type="Exile_Trader_Food";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=173;
+		};
+		class Item96
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5278.3779,3.3183551,10220.666};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=175;
+			type="Exile_Locker";
+		};
+		class Item97
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5281.6831,2.5249219,10190.188};
+				angles[]={0,3.3998106,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=176;
+			type="Land_FishingGear_01_F";
+		};
+		class Item98
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5215.4912,-0.20851843,10268.009};
+				angles[]={0,0.26513058,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=178;
+			type="Exile_DummyItem";
+			atlOffset=2.3815851;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileModel";
+					expression="[_this, _value] call Exile3DEN_fnc_updateDummy";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="a3\structures_f\wrecks\uwreck_fishingboat_f.p3d";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item99
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5278.4551,2.6498411,10215.271};
+				angles[]={0,4.6889706,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=182;
+			type="Land_Slum_01_F";
+			atlOffset=10.947542;
+		};
+		class Item100
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5276.6714,3.2843215,10212.867};
+						angles[]={0,2.5345733,0};
+					};
+					side="Independent";
+					flags=3;
+					class Attributes
+					{
+					};
+					id=184;
+					type="Exile_Trader_Boat";
+					atlOffset=11.310034;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=183;
+			atlOffset=11.310034;
+		};
+		class Item101
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5282.7085,2.4438474,10211.653};
+						angles[]={0,3.6947722,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=186;
+					type="Exile_Trader_BoatCustoms";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=185;
+		};
+		class Item102
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5282.3086,3.651794,10211.954};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=187;
+			type="Exile_Sign_BoatCustoms_Small";
+		};
+		class Item103
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5278.5649,3.6517417,10213.934};
+				angles[]={0,6.2027144,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=188;
+			type="Exile_Sign_BoatAndDiving_Small";
+			atlOffset=10.675942;
 		};
 	};
 };
