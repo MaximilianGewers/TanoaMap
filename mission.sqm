@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=191;
+		nextID=212;
 	};
 	class Camera
 	{
-		pos[]={5280.1064,5.4741311,10195.702};
-		dir[]={-0.10849652,-0.24380046,0.96385986};
-		up[]={-0.027280265,0.9697783,0.24236883};
-		aside[]={0.99384916,4.2311149e-007,0.11186942};
+		pos[]={2258.0437,48.036037,8629.1299};
+		dir[]={-0.35906854,-0.55515128,0.75030524};
+		up[]={-0.23965654,0.83172953,0.50078356};
+		aside[]={0.90206265,-1.166336e-007,0.43169507};
 	};
 };
 binarizationWanted=0;
@@ -199,7 +199,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=104;
+		items=118;
 		class Item0
 		{
 			dataType="Group";
@@ -2330,6 +2330,338 @@ class Mission
 			id=188;
 			type="Exile_Sign_BoatAndDiving_Small";
 			atlOffset=10.675942;
+		};
+		class Item104
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2239.0637,-5.0004206,8638.2422};
+				angles[]={0,3.0616906,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=192;
+			type="Exile_DummyItem";
+			atlOffset=0.92305517;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileModel";
+					expression="[_this, _value] call Exile3DEN_fnc_updateDummy";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="a3\props_f_exp\naval\boats\boat_05_wreck_f.p3d";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item105
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={5272.5391,2.2557995,10208.907};
+						angles[]={0,3.0623634,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=194;
+					type="Exile_Trader_WasteDump";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=193;
+		};
+		class Item106
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5272.0791,3.5229845,10211.147};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=195;
+			type="Exile_Sign_WasteDump_Small";
+		};
+		class Item107
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2221.1597,1.5465291,8651.1084};
+				angles[]={-0,1.3607912,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=196;
+			type="Land_FishingGear_02_F";
+		};
+		class Item108
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2223.3279,1.7889087,8661.1836};
+						angles[]={0,2.451786,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=198;
+					type="Exile_Trader_Diving";
+					atlOffset=0.0042630434;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=197;
+			atlOffset=0.0042630434;
+		};
+		class Item109
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2227.4641,1.7958343,8661.5752};
+						angles[]={0,3.7104964,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=200;
+					type="Exile_Trader_Food";
+					atlOffset=0.011189461;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=199;
+			atlOffset=0.011189461;
+		};
+		class Item110
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2225.3728,1.7832065,8661.7168};
+				angles[]={0,6.2538352,-0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=201;
+			type="Exile_Locker";
+		};
+		class Item111
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2225.6082,1.1146922,8656.3271};
+				angles[]={0,4.6596203,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=202;
+			type="Land_Slum_01_F";
+			atlOffset=7.0294809;
+		};
+		class Item112
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2223.9265,1.7476017,8653.8232};
+						angles[]={0,2.5052228,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=204;
+					type="Exile_Trader_Boat";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=203;
+		};
+		class Item113
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2229.2583,1.3073637,8652.3447};
+						angles[]={0,3.665422,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=206;
+					type="Exile_Trader_BoatCustoms";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=205;
+		};
+		class Item114
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2229.5574,2.5686412,8653.124};
+				angles[]={0,6.2538352,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=207;
+			type="Exile_Sign_BoatCustoms_Small";
+			atlOffset=0.12124777;
+		};
+		class Item115
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2225.7573,2.0771351,8654.9932};
+				angles[]={0,6.1733642,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=208;
+			type="Exile_Sign_BoatAndDiving_Small";
+			atlOffset=6.8318191;
+		};
+		class Item116
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={2219.9165,1.3073637,8650.3008};
+						angles[]={0,3.0330129,0};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=210;
+					type="Exile_Trader_WasteDump";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=209;
+		};
+		class Item117
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2219.356,2.4473934,8652.0176};
+				angles[]={0,6.2538352,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=211;
+			type="Exile_Sign_WasteDump_Small";
 		};
 	};
 };
