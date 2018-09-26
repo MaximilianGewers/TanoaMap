@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=212;
+		nextID=242;
 	};
 	class Camera
 	{
-		pos[]={2258.0437,48.036037,8629.1299};
-		dir[]={-0.35906854,-0.55515128,0.75030524};
-		up[]={-0.23965654,0.83172953,0.50078356};
-		aside[]={0.90206265,-1.166336e-007,0.43169507};
+		pos[]={11328.124,32.833553,5742.2544};
+		dir[]={0.1238034,-0.43005264,-0.89438331};
+		up[]={0.058975346,0.90275437,-0.42605373};
+		aside[]={-0.99064994,9.9287718e-007,-0.13712564};
 	};
 };
 binarizationWanted=0;
@@ -45,13 +45,14 @@ addons[]=
 	"A3_Structures_F_Ind_FuelStation",
 	"A3_Structures_F_Bootcamp_Items_Electronics",
 	"A3_Structures_F_EPB_Naval_Fishing",
-	"A3_Structures_F_Exp_Civilian_Slum_01"
+	"A3_Structures_F_Exp_Civilian_Slum_01",
+	"A3_Structures_F_EPC_Civ_Accessories"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=19;
+		items=20;
 		class Item0
 		{
 			className="exile_client";
@@ -168,6 +169,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item19
+		{
+			className="A3_Structures_F_EPC";
+			name="Arma 3 Win Episode - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=3574929;
@@ -199,7 +207,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=118;
+		items=128;
 		class Item0
 		{
 			dataType="Group";
@@ -2662,6 +2670,168 @@ class Mission
 			};
 			id=211;
 			type="Exile_Sign_WasteDump_Small";
+		};
+		class Item118
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11336.476,22.637831,5728.8042};
+				angles[]={-0,2.999788,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=212;
+			type="Land_CncBlock_D";
+		};
+		class Item119
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11333.884,22.387831,5728.4517};
+				angles[]={-0,2.999788,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=229;
+			type="Land_CncBlock_D";
+		};
+		class Item120
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11327.769,22.387831,5727.7065};
+				angles[]={-0,2.999788,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=230;
+			type="Land_CncBlock_D";
+		};
+		class Item121
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11325.212,22.637831,5727.377};
+				angles[]={-0,2.999788,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=231;
+			type="Land_CncBlock_D";
+		};
+		class Item122
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11332.256,22.387831,5727.1016};
+				angles[]={-0,2.5320075,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=232;
+			type="Land_CncBlock_D";
+		};
+		class Item123
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11328.998,22.387831,5726.6685};
+				angles[]={-0,3.6017494,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=233;
+			type="Land_CncBlock_D";
+		};
+		class Item124
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11334.217,22.740515,5726.3794};
+				angles[]={-0,2.6187978,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=234;
+			type="Exile_Construction_HBarrier5_Static";
+		};
+		class Item125
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11327.316,22.740515,5725.4883};
+				angles[]={-0,3.4485843,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=235;
+			type="Exile_Construction_HBarrier5_Static";
+		};
+		class Item126
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11335.923,24.726334,5724.0552};
+				angles[]={0,3.016485,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=238;
+			type="Land_LifeguardTower_01_F";
+			atlOffset=28.74795;
+		};
+		class Item127
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={11326.183,24.768551,5722.4014};
+				angles[]={0,3.016485,0};
+			};
+			side="Empty";
+			flags=1;
+			class Attributes
+			{
+			};
+			id=239;
+			type="Land_LifeguardTower_01_F";
+			atlOffset=28.789621;
 		};
 	};
 };
