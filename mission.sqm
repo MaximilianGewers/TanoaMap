@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=242;
+		nextID=253;
 	};
 	class Camera
 	{
-		pos[]={11328.124,32.833553,5742.2544};
-		dir[]={0.1238034,-0.43005264,-0.89438331};
-		up[]={0.058975346,0.90275437,-0.42605373};
-		aside[]={-0.99064994,9.9287718e-007,-0.13712564};
+		pos[]={4339.3999,38.995632,5464.3032};
+		dir[]={0.75075889,-0.43918288,-0.49348626};
+		up[]={0.36702245,0.89838278,-0.24125113};
+		aside[]={-0.54929233,6.0210004e-007,-0.83566159};
 	};
 };
 binarizationWanted=0;
@@ -207,7 +207,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=128;
+		items=138;
 		class Item0
 		{
 			dataType="Group";
@@ -2832,6 +2832,193 @@ class Mission
 			id=239;
 			type="Land_LifeguardTower_01_F";
 			atlOffset=28.789621;
+		};
+		class Item128
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4366.5063,22.382576,5448.2603};
+				angles[]={-0,2.2271261,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=243;
+			type="Land_CncBlock_D";
+			atlOffset=19.490208;
+		};
+		class Item129
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4362.6479,22.387976,5443.4585};
+				angles[]={-0,2.2271261,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=244;
+			type="Land_CncBlock_D";
+			atlOffset=0.0001449585;
+		};
+		class Item130
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4361.0469,22.39817,5441.4375};
+				angles[]={-0,2.2271261,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=245;
+			type="Land_CncBlock_D";
+			atlOffset=27.112503;
+		};
+		class Item131
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4366.2832,22.387831,5446.1577};
+				angles[]={-0,1.7593455,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=246;
+			type="Land_CncBlock_D";
+		};
+		class Item132
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4364.2524,22.391973,5443.5732};
+				angles[]={-0,2.8290877,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=247;
+			type="Land_CncBlock_D";
+			atlOffset=0.0041427612;
+		};
+		class Item133
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4368.1919,22.743355,5447.0088};
+				angles[]={-0,1.8461361,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=248;
+			type="Exile_Construction_HBarrier5_Static";
+			atlOffset=0.0028400421;
+		};
+		class Item134
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4363.8726,22.758551,5441.5542};
+				angles[]={-0,2.6759224,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=249;
+			type="Exile_Construction_HBarrier5_Static";
+			atlOffset=0.018035889;
+		};
+		class Item135
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4371.0356,25.01865,5446.5356};
+				angles[]={0,2.2438231,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=250;
+			type="Land_LifeguardTower_01_F";
+		};
+		class Item136
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4365.2153,25.01865,5438.5522};
+				angles[]={0,2.2438231,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+			};
+			id=251;
+			type="Land_LifeguardTower_01_F";
+		};
+		class Item137
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4368.1152,22.579269,5450.3335};
+				angles[]={0,2.1995926,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=252;
+			type="Exile_DummyItem";
+			atlOffset=0.32926941;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileModel";
+					expression="[_this, _value] call Exile3DEN_fnc_updateDummy";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="ca\misc3\cncblock_d.p3d";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
