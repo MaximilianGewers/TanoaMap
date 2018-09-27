@@ -27,3 +27,13 @@
 
 ### Legend
 CD - change directory
+
+### Required Mods
+1. Exile
+2. M3Editor - 3DEN
+4. CBA_A3
+5. CUP Weapons
+6. CUP Units
+7. CUP Vehicles
+8. CUP Terrain Core
+9. Extended_Base_Mod
