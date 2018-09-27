@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=340;
+		nextID=347;
 	};
 	class Camera
 	{
-		pos[]={12963.694,30.802502,7335.3691};
-		dir[]={-0.20402087,-0.42183033,-0.88353747};
-		up[]={-0.094918855,0.90663576,-0.41105407};
-		aside[]={-0.97445494,-8.5314241e-007,0.22501028};
+		pos[]={9531.2109,12.032036,13607.907};
+		dir[]={-0.91684085,-0.1145245,0.3825109};
+		up[]={-0.10570432,0.99341846,0.044100087};
+		aside[]={0.38504246,1.3457611e-007,0.92291176};
 	};
 };
 binarizationWanted=0;
@@ -332,7 +332,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=221;
+		items=222;
 		class Item0
 		{
 			dataType="Group";
@@ -3059,12 +3059,12 @@ class Mission
 				angles[]={0,1.7593455,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=246;
 			type="Land_CncBlock_D";
+			atlOffset=19.495462;
 		};
 		class Item132
 		{
@@ -3075,13 +3075,12 @@ class Mission
 				angles[]={0,2.8290877,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=247;
 			type="Land_CncBlock_D";
-			atlOffset=0.0041427612;
+			atlOffset=19.499605;
 		};
 		class Item133
 		{
@@ -3092,13 +3091,12 @@ class Mission
 				angles[]={0,1.8461361,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=248;
 			type="Exile_Construction_HBarrier5_Static";
-			atlOffset=0.0028400421;
+			atlOffset=27.045816;
 		};
 		class Item134
 		{
@@ -3109,13 +3107,12 @@ class Mission
 				angles[]={0,2.6759224,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 			};
 			id=249;
 			type="Exile_Construction_HBarrier5_Static";
-			atlOffset=0.018035889;
+			atlOffset=27.090057;
 		};
 		class Item135
 		{
@@ -3126,12 +3123,13 @@ class Mission
 				angles[]={0,2.2438231,0};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 			};
 			id=250;
 			type="Land_LifeguardTower_01_F";
+			atlOffset=27.033905;
 		};
 		class Item136
 		{
@@ -3142,12 +3140,13 @@ class Mission
 				angles[]={0,2.2438231,0};
 			};
 			side="Empty";
-			flags=5;
+			flags=1;
 			class Attributes
 			{
 			};
 			id=251;
 			type="Land_LifeguardTower_01_F";
+			atlOffset=27.058275;
 		};
 		class Item137
 		{
@@ -3163,7 +3162,7 @@ class Mission
 			};
 			id=252;
 			type="Exile_DummyItem";
-			atlOffset=0.32926941;
+			atlOffset=27.622654;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -5667,6 +5666,35 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item221
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={9507.3164,2.3633723,13615.561};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=346;
+					type="Exile_Trader_Boat";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=345;
 		};
 	};
 };
