@@ -25,9 +25,6 @@
 3. 'git commit -m "message with change log"' to queue files
 4. 'git puhs' to push you chnages up
 
-### Legend
-CD - change directory
-
 ### Required Mods
 1. Exile
 2. M3Editor - 3DEN
