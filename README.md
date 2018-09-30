@@ -37,3 +37,4 @@ CD - change directory
 7. CUP Vehicles
 8. CUP Terrain Core
 9. Extended_Base_Mod
+10. Ryan Zombies
