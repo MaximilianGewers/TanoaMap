@@ -28,10 +28,10 @@
 ### Required Mods
 1. Exile
 2. M3Editor - 3DEN
-4. CBA_A3
-5. CUP Weapons
-6. CUP Units
-7. CUP Vehicles
-8. CUP Terrain Core
-9. Extended_Base_Mod
-10. Ryan Zombies
+3. CBA_A3
+4. CUP Weapons
+5. CUP Units
+6. CUP Vehicles
+7. CUP Terrain Core
+8. Extended_Base_Mod
+9. Ryan Zombies
